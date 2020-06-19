@@ -1,8 +1,8 @@
 import { TestBed } from '@angular/core/testing';
 
-import { EmployeeService } from './employee-service.service';
+import { EmployeeService } from './employee.service';
 
-describe('EmployeeServiceService', () => {
+describe('EmployeeService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {

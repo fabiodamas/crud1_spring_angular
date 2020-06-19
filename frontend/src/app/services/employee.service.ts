@@ -6,8 +6,7 @@ import {Observable} from "rxjs";
   providedIn: 'root'
 })
 export class EmployeeService {
-
-  private url= 'http://localhost:8080/springboot-crud-rest/api/path1/employees';
+  private url= 'http://localhost:8080/api/path1/employee';
 
   constructor(private http: HttpClient) { }
 

@@ -14,8 +14,6 @@ const routes: Routes = [
   { path: 'emp-detail/:id', component: EmployeeDetailsComponent },
 ];
 
-
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
